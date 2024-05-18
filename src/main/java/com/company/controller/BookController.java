@@ -33,6 +33,6 @@ public class BookController {
     }
     @DeleteMapping("books/{id}")
     public void deleteById(@PathVariable Long id){
-        this.repo.deleteById(id); 
+        this.repo.deleteById(id);
     }
 }
